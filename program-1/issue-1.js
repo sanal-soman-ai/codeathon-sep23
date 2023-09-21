@@ -20,3 +20,8 @@ function sortStringByFrequency(str) {
 
 const sortedStr = sortStringByFrequency('programming');
 console.log(sortedStr); // 'ggmmrrnaoiinp'
+
+// add more test cases
+console.log(sortStringByFrequency('ababcbacadefegdehijhklij')); // 'aaabbbbccccddddeeeffgghhijjkkll'
+console.log(sortStringByFrequency('tree')); // 'eert'
+console.log(sortStringByFrequency('cccaaa')); // 'aaaccc'
