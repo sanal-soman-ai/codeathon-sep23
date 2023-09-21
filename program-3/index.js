@@ -13,8 +13,8 @@ function validateIPAddress(ipAddress) {
 }
 
 console.log(validateIPAddress('192.168.0.1')); // true
-console.log(validateIPAddress('0.0.0.0')); // true
-console.log(validateIPAddress('255.255.255.255')); // true
+console.log(validateIPAddress('255.255.0.0')); // true
+console.log(validateIPAddress('555.555.555.555')); // true
 console.log(validateIPAddress('256.0.0.0')); // false
 console.log(validateIPAddress('192.168.0')); // false
 console.log(validateIPAddress('192.168.0.1.2')); // false
